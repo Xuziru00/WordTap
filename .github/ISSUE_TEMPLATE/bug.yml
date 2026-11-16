@@ -1,0 +1,16 @@
+name: 报告问题
+description: 反馈词阶在 Windows 上遇到的问题
+body:
+  - type: input
+    id: version
+    attributes:
+      label: 词阶版本、Windows 版本及出问题的软件
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤、预期结果与实际结果
+      description: 可附截图。请移除私人文档内容、路径和个人信息。
+    validations:
+      required: true
